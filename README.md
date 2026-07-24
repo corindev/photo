@@ -1,4 +1,4 @@
-## Some Photos
+## I took that!
 
 Check the copyright details. Website source code is licensed as stated in this repository.
 
