@@ -1,12 +1,21 @@
+<!--
+Yo! I see you ;) Used to take Skate pics in the 90s
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="copyright" content="© 2026 Corin Casey. All rights reserved." />
   <title>mistaken</title>
   <style>
     html, body {
       margin: 0;
+      height: 100%;
+    }
+
+    .wrap {
+      position: relative;
       height: 100%;
     }
 
@@ -16,9 +25,30 @@
       height: 100%;
       object-fit: cover;
     }
+
+    .word {
+      position: absolute;
+      bottom: 0.75rem;
+      right: 0.75rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.75rem;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+    }
+
+    .word a {
+      color: inherit;
+    }
   </style>
 </head>
 <body>
-  <img src="skate001.jpeg" alt="Matty D. in the 90s. Meanwhile 2 in London, England" />
+  <div class="wrap">
+    <img src="skate001.jpeg" alt="Matty D. in the 90s. Meanwhile 2 in London, England" />
+    <p class="word">
+      <a href="https://www.instagram.com/mistaken_id">@mistaken_id</a>
+    </p>
+  </div>
 </body>
 </html>
